@@ -273,7 +273,7 @@ type TimestampFlag struct {
 	Hidden     bool
 	HasBeenSet bool
 
-	Value       *Timestamp
+	Value       Timestamp
 	Destination *Timestamp
 
 	Aliases []string
